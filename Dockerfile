@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/criss-vevo/CRISS-VMD  /root/zokou_BOt
+RUN git clone https://github.com/deshallos1/KIBORE_MD  /root/zokou_BOt
 WORKDIR /root/zokou_BOt/
 
 
