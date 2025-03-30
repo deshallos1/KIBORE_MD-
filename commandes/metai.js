@@ -79,7 +79,7 @@ const generateImage = async (messageId, sender, prompt, category) => {
       image: {
         url: imageUrl
       },
-      caption: "*ROLE by Criss Md*"
+      caption: "*ROLE by Kibore Md*"
     });
   } catch (error) {
     console.error("Error generating image:", error);

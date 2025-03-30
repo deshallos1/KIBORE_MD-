@@ -15,10 +15,10 @@ zokou({nomCom : "instagram" , categorie : "Download"},async (dest , zk , command
     let igvid = await axios('https://vihangayt.me/download/instagram?url='+link)
 
     if (igvid.data.data.data[0].type == 'video') {
-    zk.sendMessage(dest,{video : {url : igvid.data.data.data[0].url},caption : "ig video downloader powered by *𝐂𝐑𝐈𝐒𝐒 𝐌𝐃*",gifPlayback : false },{quoted : ms}) 
+    zk.sendMessage(dest,{video : {url : igvid.data.data.data[0].url},caption : "ig video downloader powered by *KIBORE_MD*",gifPlayback : false },{quoted : ms}) 
     }
     else {
-        zk.sendMessage(dest,{image : {url : igvid.data.data.data[0].url},caption : "ig image downloader powered by *𝐂𝐑𝐈𝐒𝐒 𝐌𝐃*"})
+        zk.sendMessage(dest,{image : {url : igvid.data.data.data[0].url},caption : "ig image downloader powered by *KIBORE_MD*"})
     }
   
   } catch (e) {repondre("erreur survenue lors du téléchargement \n " + e)}
@@ -29,7 +29,7 @@ zokou({nomCom : "instagram" , categorie : "Download"},async (dest , zk , command
 zokou({
   nomCom: "facabook",
   categorie: "Download",
-  reaction: "📽️"
+  reaction: "?"
 },
 async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg } = commandeOptions;
@@ -49,7 +49,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by *𝐂𝐑𝐈𝐒𝐒 𝐌𝐃*' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by *KIBORE_MD*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
@@ -65,7 +65,7 @@ async (dest, zk, commandeOptions) => {
 
 
 
-zokou({ nomCom: "tiktok", categorie: "Download", reaction: "🎵" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "tiktok", categorie: "Download", reaction: "?" }, async (dest, zk, commandeOptions) => {
   const { arg, ms, prefixe,repondre } = commandeOptions;
   if (!arg[0]) {
     repondre(`how to use this command:\n ${prefixe}tiktok tiktok_video_link`);
@@ -93,7 +93,7 @@ Description: ${tik.desc}
 zokou({
   nomCom: "facebook2",
   categorie: "Download",
-  reaction: "📽️"
+  reaction: "?"
 },
 async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg } = commandeOptions;
@@ -113,7 +113,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *𝐂𝐑𝐈𝐒𝐒 𝐌𝐃*' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *KIBORE_MD*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)

@@ -31,7 +31,7 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
             ptt: true, // Voice note form
             contextInfo: {
                 externalAdReply: {
-                    title: "🤖 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃🤖",
+                    title: "🤖 𝐊𝐈𝐁𝐎𝐑𝐄_𝐌𝐃🤖",
                     body: `🏓 *Pong:* ${ping}ms\n📅 *Date:* ${date}\n⏰ *Time:* ${time}`,
                     thumbnailUrl: THUMBNAIL_URL,
                     mediaType: 1,

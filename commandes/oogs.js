@@ -28,10 +28,10 @@ zokou({ nomCom: "videologo", categorie: "modern-logo", reaction: "✋" }, async 
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃",
-        body: "Regards, 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃",
-        thumbnailUrl: "https://files.catbox.moe/hhwdau.jpeg",
-        sourceUrl: "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
+        title: "𝐊𝐈𝐁𝐎𝐑𝐄_𝐌𝐃",
+        body: "Regards, 𝐊𝐈𝐁𝐎𝐑𝐄_𝐌𝐃",
+        thumbnailUrl: "https://files.catbox.moe/t9jjm9.jpg",
+        sourceUrl: "https://chat.whatsapp.com/DTnrZzULVtP5r0E9rhoFOj",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -80,7 +80,7 @@ zokou({ nomCom: "videologo", categorie: "modern-logo", reaction: "✋" }, async 
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
             mimetype: "video/mp4",
-            caption: `*Downloaded by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃*`,
+            caption: `*Downloaded by 𝐊𝐈𝐁𝐎𝐑𝐄_𝐌𝐃*`,
           }, { quoted: ms });
         }
       }

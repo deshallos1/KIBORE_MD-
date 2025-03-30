@@ -94,7 +94,7 @@ zokou({
 
     // Prepare the message caption with video details
     const caption = `
-     *CRISS VMD FB DL*
+     *KIBORE MD FB DL*
     |__________________________|
     |       *ᴅᴜʀᴀᴛɪᴏɴ*  
            ${videoData.result.duration}
@@ -160,12 +160,12 @@ zokou({
         if (responseText === '1') {
           await zk.sendMessage(dest, {
             video: { url: videoDetails.links.SD },
-            caption: "*CRISS-VMD*",
+            caption: "*KIBORE_MD*",
           }, { quoted: messageContent });
         } else if (responseText === '2') {
           await zk.sendMessage(dest, {
             video: { url: videoDetails.links.HD },
-            caption: "*CRISS-VMD*",
+            caption: "*KIBORE_MD*",
           }, { quoted: messageContent });
         } else if (responseText === '3') {
           await zk.sendMessage(dest, {
@@ -179,7 +179,7 @@ zokou({
             },
             mimetype: "audio/mpeg",
             fileName: "criss vmd.mp3",
-            caption: "*CRISS-VMD*"
+            caption: "*KIBORE_MD*"
           }, {
             quoted: messageContent
           });
@@ -276,12 +276,12 @@ zokou({
         if (responseText === '1') {
           await zk.sendMessage(keithdl, {
             video: { url: tiktokLinks.dl_link.download_mp4_1 },
-            caption: "*CRISS-VMD*",
+            caption: "*KIBORE_MD*",
           }, { quoted: messageContent });
         } else if (responseText === '2') {
           await zk.sendMessage(keithdl, {
             video: { url: tiktokLinks.dl_link.download_mp4_2 },
-            caption: "*CRISS-VMD*",
+            caption: "*KIBORE_MD*",
           }, { quoted: messageContent });
         } else if (responseText === '3') {
           await zk.sendMessage(keithdl, {

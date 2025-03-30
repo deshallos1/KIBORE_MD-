@@ -55,12 +55,12 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Criss", numero: "255687068672" },
-      { nom: "Ibrahim", numero: "254710772666" },
+      { nom: "Kibore", numero: "255613300056" },
+      { nom: "Rahmani", numero: "255693629079" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "WELCOME TO CRISS VEVO HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO KIBORE_MD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -94,7 +94,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING CRISS VEVO, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/Lh5EQEYJn5VIa4atNRPBm5] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://youtube.com/@criss_vevo?si=Va1vaZrdlfok0SWP] \n\n\n*POWERED BY CRISS VEVO") 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING CRISS VEVO,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING KIBORE, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/DTnrZzULVtP5r0E9rhoFOj] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://youtube.com/@timnasa-tmd?si=1DDVsviprxqYJwY1] \n\n\n*POWERED BY CRISS VEVO") 
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING KIBORE_MD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })

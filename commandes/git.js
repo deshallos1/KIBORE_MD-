@@ -34,24 +34,24 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-       *CRISS VEVO BOT INFO* 
+       *KIBORE MD BOT INFO* 
 ❒───────────────────❒
 
 *GITHUB LINK*
-> =https://github.com/criss-vevo/CRISS-VMD
+> =https://github.com/deshallos1/KIBORE_MD-
 
 *WHATSAPP GROUP*
-> https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g
+> https://chat.whatsapp.com/DTnrZzULVtP5r0E9rhoFOj
 ⁠
 ╭───────────────────❒
  │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
- │❒⁠⁠⁠⁠ *DEV1* : *criss vevo*
- │❒⁠⁠⁠⁠ *DEV2* : *SIR CRISS VEVO*
+ │❒⁠⁠⁠⁠ *DEV1* : *Kibore Md*
+ │❒⁠⁠⁠⁠ *DEV2* : *SIR KIBORE MD*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-         *POWERED BY CRISS VEVO*
+         *POWERED BY KIBORE MD*
 
 ❒───────────────────❒`;
 
