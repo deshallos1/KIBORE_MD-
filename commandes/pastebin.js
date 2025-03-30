@@ -52,7 +52,7 @@ zokou({
       // Adjust type according to your needs
       const stickerObject = new Sticker(fileData.data, {
         pack: nomAuteurMessage,
-        author: "CRISS-MD",
+        author: "KIBORE_MD",
         type: isAnimated ? StickerTypes.ANIMATED : StickerTypes.FULL, // Use appropriate type
         categories: ['🤩', '🎉'],
         id: "12345",

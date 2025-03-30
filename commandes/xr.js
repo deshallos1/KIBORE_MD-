@@ -37,7 +37,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭───────────────━⊷
 ┊ *SCAN QR CODE*
-┊ https://criss-md-3.onrender.com/qr
+┊ https://rahmani-md-7xqe.onrender.com/
 ╰───────────────━⊷
  `;    
 let menuMsg = `

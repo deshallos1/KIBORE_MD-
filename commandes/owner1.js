@@ -31,13 +31,13 @@ zokou({ nomCom: "deployer", categorie: "General" }, async (dest, zk, commandeOpt
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
-  let infoMsg =  `> Hello ${nomAuteurMessage} you requested for my deployer😌\n *${s.OWNER_NAME}* is my Charming good looking deployer🍂💋.\n\n> Powered by 𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎 `;
+  let infoMsg =  `> Hello ${nomAuteurMessage} you requested for my deployerRahmany\n *${s.OWNER_NAME}* is my Charming good looking deployer Rahmany.\n\n> Powered by KIBORE_MD `;
 
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *bst coder md*, déveloper criss md bot" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *bst coder md*, déveloper kibore md bot" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);

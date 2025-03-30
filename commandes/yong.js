@@ -28,7 +28,7 @@ zokou({ nomCom: "menu2", categorie: "General" }, async (dest, zk, commandeOption
     const date = moment().format('DD/MM/YYYY');
 
     let infoMsg = `
-╭━━✧𝐂𝐑𝐈𝐒𝐒  𝐕𝐌𝐃✧━━❖
+╭━━✧𝐊𝐈𝐁𝐎𝐑𝐄  𝐌𝐃✧━━❖
 ┊✺┌────••••────⊷
 ┃✇│◎ 𝙾𝚠𝚗𝚎𝚛 : ${s.OWNER_NAME}
 ┃✇│◎ 𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${s.PREFIXE} ]
@@ -36,11 +36,11 @@ zokou({ nomCom: "menu2", categorie: "General" }, async (dest, zk, commandeOption
 ┃✇│◎ 𝚁𝚊𝚖  : 8/132 GB
 ┃✇│◎ 𝙳𝚊𝚝𝚎  : ${date}
 ┃✇│◎ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : 𝐂𝐑𝐈𝐒𝐒 
+┃✇│◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : 𝐊𝐈𝐁𝐎𝐑𝐄 
 ┃✇│◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
-┃✇│ 𝚃𝚑𝚎𝚖𝚎 : 𝐕𝐄𝐕𝐎
+┃✇│ 𝚃𝚑𝚎𝚖𝚎 : 𝐤𝐢𝐛𝐨𝐫𝐞
 ┊   └────••••────⊷
-╰━━✧𝐂𝐑𝐈𝐒𝐒  𝐕𝐌𝐃✧━━━◆ \n`;
+╰━━✧𝐊𝐈𝐁𝐎𝐑𝐄 𝐌𝐃✧━━━◆ \n`;
 
     let menuMsg = ``;
 
@@ -58,7 +58,7 @@ zokou({ nomCom: "menu2", categorie: "General" }, async (dest, zk, commandeOption
     }
 
     menuMsg += `
-𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐂𝐑𝐈𝐒𝐒 𝐕𝐄𝐕𝐎\n`;
+𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐊𝐈𝐁𝐎𝐑𝐄 𝐌𝐃\n`;
 
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
@@ -67,10 +67,10 @@ zokou({ nomCom: "menu2", categorie: "General" }, async (dest, zk, commandeOption
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "𝐂𝐑𝐈𝐒𝐒 𝐌𝐃 𝐔𝐏𝐃𝐀𝐓𝐄𝐒",
-                    body: "Tap here my friend join channel update",
-                    thumbnailUrl: "https://files.catbox.moe/ek7wyr.jpg",
-                    sourceUrl: "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
+                    title: "𝐊𝐈𝐁𝐎𝐑𝐄 𝐌𝐃 𝐔𝐏𝐃𝐀𝐓𝐄𝐒",
+                    body: "Tap here my friend join group update",
+                    thumbnailUrl: "https://files.catbox.moe/t9jjm9.jpg",
+                    sourceUrl: "https://chat.whatsapp.com/DTnrZzULVtP5r0E9rhoFOj",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }

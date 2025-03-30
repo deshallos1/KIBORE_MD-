@@ -37,7 +37,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭───────────────━⊷
 ┊ *PAIRING CODE*
-┊ https://criss-md-3.onrender.com/pair
+┊https://rahmani-md-7xqe.onrender.com/
 ╰───────────────━⊷
  `;    
 let menuMsg = `

@@ -134,7 +134,7 @@ zokou(
             )
         );
         const tumbUrl =
-            "https://files.catbox.moe/hhwdau.jpeg";
+            "https://files.catbox.moe/t9jjm9.jpg";
         let menu = `${mono}Hello ${ms.pushName}
 ${timewisher(time)}
 
@@ -173,7 +173,7 @@ ${timewisher(time)}
                                     thumbnailUrl: tumbUrl,
                                     previewType: "PHOTO",
                                     sourceUrl:
-                                        "https://whatsapp.com/channel/0029Vb0HIV2G3R3s2II4181g",
+                                        "https://chat.whatsapp.com/DTnrZzULVtP5r0E9rhoFOj",
                                     mediaType: 1,
                                     renderLargerAbhinail: true
                                 }
@@ -211,12 +211,12 @@ zokou(
                 title: "bx.pdf",
                 pageCount: 9999999999,
                 thumbnail: {
-                    url: "https://files.catbox.moe/hhwdau.jpeg"
+                    url: "https://files.catbox.moe/t9jjm9.jpg"
                 },
                 thumbnailUrl:
-                    "https://files.catbox.moe/hhwdau.jpeg",
+                    "https://files.catbox.moe/t9jjm9.jpg",
                 jpegThumbnail: {
-                    url: "https://files.catbox.moe/hhwdau.jpeg"
+                    url: "https://files.catbox.moe/t9jjm9.jpg"
                 },
                 mediaKey: "ht55w7B6UoaG9doQuVQ811XNfWcoALqcdQfd61seKKk=",
                 fileName:
@@ -314,12 +314,12 @@ zokou(
             title: "bx.pdf",
             pageCount: 9999999999,
             thumbnail: {
-                url: "https://files.catbox.moe/hhwdau.jpeg"
+                url: "https://files.catbox.moe/t9jjm9.jpg"
             },
             thumbnailUrl:
-                "https://files.catbox.moe/hhwdau.jpeg",
+                "https://files.catbox.moe/t9jjm9.jpg",
             jpegThumbnail: {
-                url: "https://files.catbox.moe/hhwdau.jpeg"
+                url: "https://files.catbox.moe/t9jjm9.jpg"
             },
             mediaKey: "ht55w7B6UoaG9doQuVQ811XNfWcoALqcdQfd61seKKk=",
             fileName:

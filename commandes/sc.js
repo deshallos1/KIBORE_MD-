@@ -36,21 +36,21 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 
 ╭───────────────━
-┊🌟 𝐂𝐑𝐈𝐒𝐒 𝐌𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 🌟
+┊🌟 𝐊𝐈𝐁𝐎𝐑𝐄 𝐌𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 🌟
 ╰───────────────━
 ╭───────────────━
 ║🔗 𝐁𝐎𝐓 𝐑𝐄𝐏𝐎
-║> https://shorturl.at/VIcZ7
+║> https://github.com/deshallos1/KIBORE_MD-
 ╰───────────────━
 ╭───────────────━
-║🔗 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟
-║> https://shorturl.at/10YNe
+║🔗 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗚𝗥𝗢𝗨𝗣
+║> https://chat.whatsapp.com/DTnrZzULVtP5r0E9rhoFOj
 ╰───────────────━
 ╭───────────────━
 ║🔗𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑
-║> https://shorturl.at/H5hVK
+║>  255613300056
 ⁠⁠⁠⁠╰───────────────━
- 𝗙𝗢𝗟𝗟𝗢𝗪 𝗠𝗬 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗙𝗢𝗥 𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢
+ 𝗙𝗢𝗟𝗟𝗢𝗪 𝗠𝗬 𝗚𝗥𝗢𝗨𝗣 𝗙𝗢𝗥 𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢
  `;
 
    var lien = mybotpic();

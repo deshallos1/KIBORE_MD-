@@ -71,7 +71,7 @@ _Haya yote ni kazi ya WhatsApp bot na mengine mengi siwezi orodhesha hapa,,,,,,,
 
 _Njoo nikuwekee WhatsApp bot Utalipia 3,000 Tu_
 
-*POWERED BY CRISS VEVO*
+*POWERED BY KIBORE_MD*
  `;    
 let menuMsg = `
 `;

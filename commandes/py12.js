@@ -73,7 +73,7 @@ const date = moment().format('DD/MM/YYYY');
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: '𝐂𝐑𝐈𝐒𝐒 𝐌𝐃 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 𝐀𝐋𝐋 𝐓𝐇𝐄 𝐓𝐈𝐌𝐄',
+        title: '𝐊𝐈𝐁𝐎𝐑𝐄_𝐌𝐃 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 ',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
